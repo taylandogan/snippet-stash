@@ -1,2 +1,8 @@
 # snippet-stash
-Inlcudes personal code snippets and/or files.
+Includes personal code snippets and/or files.
+
+* nlp
+ * abbreviations.txt
+ * stopWords.txt
+* data compression
+ * Delta Encoding (C++11)
