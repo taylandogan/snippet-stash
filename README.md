@@ -6,3 +6,4 @@ Includes personal code snippets and/or files.
  * stopWords.txt
 * data compression
  * Delta Encoding (C++11)
+ * Binary Adaptive Sequential Coding - BASC (C++11)
