@@ -12,8 +12,8 @@ parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
+# Terminal prompt
 export PS1="\[\e]0;\W\a\]\u@\h \[\033[36m\]\W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
-#export PS1="\[\e]0;\W\a\]\u@\h \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 # Aliases
 alias activate='source ./venv/bin/activate'
